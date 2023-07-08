@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    
+    margin: 0;
+    text-align: center;
+    font-family: Sacramento,lucida;
+    font-size: large;
+    overflow-x: hidden;
+    
+}
+h1{
+    margin: 50px;
+    font-size:562.5%;
+    margin-bottom: -10px;
+    color: #F54748;
+}
+.yashu{
+    margin: 50px;
+    font-size:562.5%;
+    margin-bottom: -10px;
+    animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from{width: 50%;}
+  to { width: 100% }
+}
+
+.para{
+    animation: typing1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(40,end);
+  animation-fill-mode: backwards;
+}
+
+@keyframes typing1 {
+  from{width: 200%;}
+  to { width: 100% }
+
+}
+.skillsh1{
+    font-size:500%;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #DB005B;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+#topcontainer{
+    
+    position: relative;
+    padding-top: 133px;
+    
+    background-color: #78C1F3;
+    
+   
+}
+
+#midcontainer{
+    
+    margin-bottom: 20px;
+    background-color: #9BE8D8;
+}
+.border{
+    border-color:gold ;
+    border-style:none;
+    border-top-style:dotted ;
+    border-width: 5px;
+    width: 5%;
+    position: absolute;
+    left:710px;
+}
+
+.abovecloud{
+
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+.bottomcloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+.profilepic{
+    border-radius: 50%;
+    max-width: 25%;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+#skillcont{
+    background-color: #E2F6CA;
+    margin-bottom: 20px;
+    
+}
+#bottomcontainer{
+    background-color: #F8FDCF;
+}
+.html{
+    width: 70px;
+    padding-right: 20px;
+    
+}
+.css{
+    width: 70px;
+    padding-right: 20px;
+    
+}
+.js{
+    width: 80px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    
+}
+.c{
+    width: 60px;
+    padding-right: 20px;
+    
+}
+.python{
+    width: 80px;
+    padding-right: 20px;
+    
+}
+.bootstrap{
+    width: 100px;
+    padding-right: 20px;
+    
+    
+    
+}
+.figma{
+    width: 60px;
+    padding-right: 20px;
+    
+}
+
+
+
+a.social {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    left: 1100px;
+    bottom: 45px;
+    border: #fff solid 2px;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.social::before {
+    content: '';
+    background-color: #f0f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover::before {
+    top: 0;
+}
+
+
+a.social.linkedin::before {
+    background-color: #0371ae;
+}
+a.social.linkedin::before {
+    background-color:red;
+}
+
+
+a.social svg {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover svg {
+    transform: rotate(360deg);
+}
+
+a.social svg path {
+    fill: #383838;
+    transition: 0.5s all ease-in-out;
+}
+
+a.social:hover svg path {
+    fill: #fff;
+}
+a.mail{
+    font-size: 2.5vw;
+    position: relative;
+    right: 450px;
+    top: 40px;
+    color: #FF7C7C;
+    
+}
+a.mail::before{
+    color: #3C2A21;  
+
+}
+a.mail:hover {
+   color: #862B0D;
+}
+.num{
+  color:#FF7C7C;
+ 
+  text-align: center;
+}
+
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #FFD9C0;
+    position:fixed;
+    
+   
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Sacramento;
+    color: #F86F03;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav{
+    float:right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration:none;
+    font-family: 'Belanosima', sans-serif;
+    letter-spacing: 2px;
+    color: #F86F03;
+    font-size: 20px;
+    padding: 36px 10px;
+    
+    font-weight: 500;
+
+}
+a:hover{
+    letter-spacing: 7px;
+}
